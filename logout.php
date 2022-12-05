@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    session_destroy();
-    include('index.php');
-    header("locarion: index.ph")
+    //session_destroy();
+   
+    header("location: login.php");
 ?>
